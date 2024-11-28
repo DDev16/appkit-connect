@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
       {/* Content Container */}
       <div className="relative z-10 w-full text-center flex flex-col items-center">
         {/* Heading */}
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mt-10">
           Empower Your DApp Development
         </h1>
 
