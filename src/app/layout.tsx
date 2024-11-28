@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 import { cookies } from 'next/headers' // Updated import
 import ContextProvider from '@/context'
+import Header from '@/components/Header' // Added import for Header
+import Footer from '@/components/Footer' // Added import for Footer
 
 export const metadata: Metadata = {
   title: 'AppKit Example App',
@@ -22,7 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ContextProvider cookies={cookieHeader?.toString() || null}>{children}</ContextProvider>
+        <ContextProvider cookies={cookieHeader?.toString() || null}>
+        <Header /> {/* Added Header component */}
+          {children}
+          </ContextProvider>
+        <Footer /> {/* Added Footer component */}
       </body>
     </html>
   )
