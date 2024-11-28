@@ -26,12 +26,7 @@ const Header: React.FC = () => {
           >
             Documentation
           </a>
-          <a
-            href="#pricing"
-            className="text-gray-600 hover:text-indigo-600 transition duration-300"
-          >
-            Pricing
-          </a>
+    
           <a
             href="#contact"
             className="text-gray-600 hover:text-indigo-600 transition duration-300"
