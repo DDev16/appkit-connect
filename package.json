@@ -1,6 +1,6 @@
 {
-  "name": "my-next-app",
-  "version": "0.1.0",
+  "name": "@examples/next-wagmi-app-router",
+  "version": "1.0.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "@reown/appkit": "^1.1.2",
+    "@reown/appkit-adapter-ethers": "^1.1.2",
+    "@reown/appkit-adapter-wagmi": "^1.1.2",
+    "@tanstack/react-query": "5.56.2",
+    "@wagmi/core": "2.13.8",
+    "autoprefixer": "^10.4.20",
+    "next": "14.2.3",
+    "postcss": "^8.4.49",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "^3.4.15",
+    "viem": "2.21.26",
+    "wagmi": "2.12.17"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3"
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.62",
+    "@types/react-dom": "18.2.7",
+    "esbuild": "0.21.1",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "typescript": "5.3.3"
   }
 }
