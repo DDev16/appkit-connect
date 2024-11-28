@@ -1,103 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reown AppKit Blockchain Template</title>
-</head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6;">
+Reown AppKit Blockchain Template
+The Reown AppKit Blockchain Template is a powerful, developer-friendly starter kit designed to streamline the creation of blockchain-powered decentralized applications (DApps). Built with a modern tech stack, this template simplifies the integration of blockchain functionality, wallet connections, and smart contract interactions, empowering developers to focus on building innovative features.
 
-    <h1>Reown AppKit Blockchain Template</h1>
-    <p>
-        The <strong>Reown AppKit Blockchain Template</strong> is a powerful starter kit designed to simplify 
-        the creation of blockchain-powered decentralized applications (DApps). With a modern tech stack, it accelerates 
-        Web3 wallet connections, blockchain functionality, and smart contract integration.
-    </p>
+Key Features
+1. AppKit Integration
+Leverages @reown/appkit for seamless Web3 wallet connections and interactions.
+Supports multiple wallet providers via Web3Modal and Wagmi.
+2. Blockchain-Ready Architecture
+Pre-configured to connect to EVM-compatible blockchains.
+Supports popular networks like Ethereum, Polygon, Flare, and more.
+3. Smart Contract Interactions
+Simplified interfaces for interacting with smart contracts using the ethers.js library.
+Prebuilt hooks such as useReadContract and useWriteContract.
+4. Modern Tech Stack
+Next.js for server-side rendering and high-performance applications.
+Tailwind CSS for responsive, customizable UI designs.
+TypeScript for enhanced development with type safety and better tooling.
+5. Customizable UI
+Clean, modular design system with reusable components.
+Built-in dark mode and light mode for user-friendly aesthetics.
+6. Enhanced User Authentication
+Integrated wallet connection flow.
+Displays user account details and balances in real time.
+7. Developer Utilities
+Pre-configured tools like:
+Ethers Adapter
+Viem
+React Query
+Flexible and easily adaptable project structure for quick deployment.
+Use Cases
+Decentralized marketplaces.
+NFT minting platforms.
+Token management dashboards.
+Cross-chain applications.
+Web3 onboarding experiences.
+Getting Started
+Clone the Repository:
 
-    <hr>
 
-    <h2>Key Features</h2>
+git clone https://github.com/your-repository/reown-appkit-template.git
+cd reown-appkit-template
+Install Dependencies:
 
-    <h3>AppKit Integration</h3>
-    <ul>
-        <li>Simplifies Web3 wallet connections via <code>@reown/appkit</code>.</li>
-        <li>Supports multiple wallet providers using Web3Modal and Wagmi.</li>
-    </ul>
 
-    <h3>Blockchain-Ready Architecture</h3>
-    <ul>
-        <li>Pre-configured for EVM-compatible blockchains like Ethereum, Polygon, and Flare.</li>
-    </ul>
+npm install
+Configure Your Environment:
 
-    <h3>Smart Contract Interactions</h3>
-    <ul>
-        <li>Easy interaction with smart contracts using <code>ethers.js</code>.</li>
-        <li>Prebuilt hooks like <code>useReadContract</code> and <code>useWriteContract</code>.</li>
-    </ul>
+Set up your preferred blockchain network and wallet options in the configuration files.
+Run the Development Server:
 
-    <h3>Modern Tech Stack</h3>
-    <ul>
-        <li><strong>Next.js</strong> for performance and server-side rendering.</li>
-        <li><strong>Tailwind CSS</strong> for responsive UI.</li>
-        <li><strong>TypeScript</strong> for type-safe development.</li>
-    </ul>
+npm run dev
+Start Building: Use the prebuilt hooks, components, and utilities to create your custom DApp.
 
-    <h3>Customizable UI</h3>
-    <ul>
-        <li>Modular, reusable components.</li>
-        <li>Built-in support for light and dark modes.</li>
-    </ul>
+Why Choose This Template?
+The Reown AppKit Blockchain Template enables developers to focus on creating value-driven features without spending time setting up the foundational blockchain infrastructure. It’s the perfect choice for Web3 innovators ready to bring their decentralized ideas to life.
 
-    <h3>Enhanced User Authentication</h3>
-    <ul>
-        <li>Integrated wallet connection flow.</li>
-        <li>Displays user account details and balances in real time.</li>
-    </ul>
-
-    <h3>Developer Utilities</h3>
-    <ul>
-        <li>Pre-configured tools: <strong>Ethers Adapter</strong>, <strong>Viem</strong>, <strong>React Query</strong>.</li>
-        <li>Flexible project structure for fast deployment.</li>
-    </ul>
-
-    <hr>
-
-    <h2>Use Cases</h2>
-    <ul>
-        <li>Decentralized marketplaces.</li>
-        <li>NFT minting platforms.</li>
-        <li>Token management dashboards.</li>
-        <li>Cross-chain applications.</li>
-        <li>Web3 onboarding tools.</li>
-    </ul>
-
-    <hr>
-
-    <h2>Getting Started</h2>
-    <ol>
-        <li>
-            Clone the repository:
-            <pre><code>git clone https://github.com/your-repository/reown-appkit-template.git
-cd reown-appkit-template</code></pre>
-        </li>
-        <li>
-            Install dependencies:
-            <pre><code>npm install</code></pre>
-        </li>
-        <li>Configure your blockchain network and wallet options.</li>
-        <li>
-            Run the development server:
-            <pre><code>npm run dev</code></pre>
-        </li>
-        <li>Start building your DApp with the provided hooks, components, and utilities.</li>
-    </ol>
-
-    <hr>
-
-    <p>
-        This template empowers developers to focus on building value-driven features without the hassle of 
-        setting up foundational blockchain infrastructure. Perfect for Web3 innovators!
-    </p>
-
-</body>
-</html>
+Feel free to contribute or raise issues to improve this template! 🚀
