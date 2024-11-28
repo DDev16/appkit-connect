@@ -1,9 +1,13 @@
 import { ConnectButton } from '@/components/ConnectButton'
+import Hero from '@/components/Hero'
+import Header from '@/components/Header'
 
 export default function Home() {
   return (
-    <div className="page-container">
-      <ConnectButton />
+    <div>
+       <Header />
+
+      <Hero />  
     </div>
   )
 }
